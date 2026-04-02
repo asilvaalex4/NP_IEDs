@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from scipy.stats import sem, zscore
 from scipy.ndimage import gaussian_filter1d
-from ecog_utils import erp_util
+import erp_util
 import matplotlib as mpl
 def plot_raster(fig,ax,dat,offset=1,t_ar=[-1,1]):
     # dat: tr x time
